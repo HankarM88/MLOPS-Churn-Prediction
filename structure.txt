@@ -1,0 +1,20 @@
+mlops-project for churn prediction/
+│
+ ── data/
+│   ├── raw/                        # Raw, unprocessed data
+│   ├── processed/              # Cleaned/processed data for training
+│   └── pipeline/                 # Data pipeline scripts
+├── notebooks/                    # Jupyter notebooks for experimentation
+├── models/                       # Saved models, versioned if necessary
+├── src/
+│   ├── features/                 # Feature engineering code
+│   ├── models/                   # Model definition and training code
+│   ├── evaluation/               # Model evaluation metrics and testing
+│   └── deployment/               # Deployment scripts and configuration
+├── tests/                           # Unit, integration, and end-to-end tests
+├── scripts/                       # Automation scripts (data fetch, retraining, etc.)
+├── requirements.txt        # Python dependencies
+├── Dockerfile                    # Docker configuration for containerizing the project
+├── dvc.yaml                      # DVC pipeline file for data versioning (optional)
+├── mlflow/                       # MLflow tracking server or artifacts
+└── README.md                     # Project overview and setup instructions

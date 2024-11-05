@@ -1,0 +1,16 @@
+
+data: 
+  raw_data_path: data/raw_data.csv
+  preprocessed_data_path: data/preprocessed_data.csv
+
+train:
+  test_size: 0.2
+  random_state: 42
+  shuffle: True
+
+model:
+  name: RandomForestClassifier
+  params:  # n_estimators = 100, max_depth =10
+    n_estimators: 100
+    max_depth: 10
+  store_path: models/

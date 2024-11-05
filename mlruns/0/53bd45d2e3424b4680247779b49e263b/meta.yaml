@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/hp/Desktop/MLOPS%20for%20Churn%20Prediction/mlruns/0/53bd45d2e3424b4680247779b49e263b/artifacts
+end_time: 1730687747511
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 53bd45d2e3424b4680247779b49e263b
+run_name: rare-trout-684
+run_uuid: 53bd45d2e3424b4680247779b49e263b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730687733596
+status: 3
+tags: []
+user_id: Mostafa

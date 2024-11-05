@@ -1,0 +1,7 @@
+2024-11-01 15:43:04,930 - INFO - Data loaded, preprocessed, and saved!
+2024-11-01 16:07:01,763 - INFO - Model: RandomForestClassifier(max_depth=10), Accuracy: 0.8621593291404612, F1 Score: 0.7502374169040835, AUC Score: 0.811620313760179
+2024-11-01 16:10:11,877 - INFO - Model: RandomForestClassifier(max_depth=10), Accuracy: 0.8611111111111112, F1 Score: 0.7488151658767772, AUC Score: 0.8108684340609309
+2024-11-01 16:10:55,856 - INFO - Model: RandomForestClassifier(max_depth=10), Accuracy: 0.8621593291404612, F1 Score: 0.7507109004739336, AUC Score: 0.812109425813669
+2024-11-01 16:28:04,624 - INFO - Model: RandomForestClassifier(max_depth=10), Accuracy: 0.860062893081761, F1 Score: 0.7473982970671712, AUC Score: 0.8101165543616827
+2024-11-03 20:35:23,533 - INFO - Data loaded, preprocessed, and saved!
+2024-11-03 20:35:32,524 - INFO - Model: RandomForestClassifier(max_depth=10), Accuracy: 0.8632075471698113, F1 Score: 0.7535410764872521, AUC Score: 0.8143286416733877
