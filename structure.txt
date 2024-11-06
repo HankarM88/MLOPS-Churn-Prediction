@@ -16,4 +16,5 @@ mlops-project for churn prediction/
 ├── app.py                           # Deployement application
 ├── makefile                         # Automate tasks 
 ├── config.yaml                      # Configuration parameters
+├── dockerfile                       # Containerizing the application
 └── README.md                        # Project overview and setup instructions
