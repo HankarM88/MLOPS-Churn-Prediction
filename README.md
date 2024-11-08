@@ -1,4 +1,4 @@
-## Employee Churn Prediction MLOPS Project
+## Employee Churn Prediction MLOps Project
 This project leverages an end-to-end MLOps pipeline to predict whether an employee will leave the company or not, encompassing data processing, model training, evaluation, and deployment in a reproducible and scalable manner.
 
 ### Setup and Usage
@@ -10,7 +10,7 @@ Clone the project repository from GitHub:
 git clone https://github.com/HankarM88/MLOPS-for-Churn-Prediction.git
 ```
 ```bash
-cd MLOPS-for-Churn-Prediction
+cd MLOps-for-Churn-Prediction
 ```
 #### 2. Set Up the Environment
 Ensure you have Python 3.8+ installed. Create a virtual environment and install the necessary dependencies:
