@@ -1,20 +1,27 @@
 mlops-project for churn prediction/
 │
 | ── data/
-│   ├── raw_data                      # Raw, unprocessed data
-│   ├── processed_data                # Cleaned/processed data for training
-│   └── data_pipeline                 # Data pipeline scripts
-├── notebooks/                        # Jupyter notebooks for experimentation
+│   ├── raw_data.csv                              # Raw, unprocessed data
+│   ├── processed_data.csv                        # Cleaned/processed data for training
+│   ├── data_pipeline.py                          # Data pipeline script
+│   └── auto_etl.py                               # Orchestrate data pipeline
 |
-├── models/                          # Saved models, versioned if necessary
+├── notebooks/                                    # Jupyter notebooks for experimentation
+|   ├── exploratory_data_analysis.ipynb           
+│   └── machine_learning.ipynb                    
+|
+├── models/                                       # Saved models, versioned if necessary
+├── logs/                                         # logging data transactions and model peroramce 
 ├── src/
-│   ├── training                     # Training models
-│   ├── evaluation                   # Model evaluation
-│   └── model_pipeline               # Model devloppment pipeline
-├── tests/                           # Unit tests
-├── requirements.txt                 # Project dependencies
-├── app.py                           # Deployement application
-├── makefile                         # Automate tasks 
-├── config.yaml                      # Configuration parameters
-├── dockerfile                       # Containerizing the application
-└── README.md                        # Project overview and setup instructions
+│   ├── training                                  # Training models
+│   ├── evaluation                                # Model evaluation
+│   └── model_pipeline                            # Model devloppment pipeline
+├── tests/                                        # Unit tests
+├── requirements.txt                              # Project dependencies
+├── app.py                                        # Deployement application
+├── makefile                                      # Automate tasks 
+├── config.yaml                                   # Configuration parameters
+├── dockerfile                                    # Containerizing the application
+└── README.md                                     # Project overview and setup instructions
+
+
